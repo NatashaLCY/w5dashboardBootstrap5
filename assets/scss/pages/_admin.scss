@@ -1,0 +1,40 @@
+.navbar .adminTitle{
+  justify-content: start;
+  vertical-align: middle;
+}
+.table> :not(caption)>*>* {
+  padding: 16px;
+}
+
+.page-link.active,
+.active>.page-link {
+  background-color: green;
+}
+.page-link {
+  color: #212529;
+}
+td.visibility_width{ 
+  width: 1%;
+  padding-right: 8px;
+  cursor:pointer;
+}
+td.edit {
+  width: 1%;
+  padding-right: 0px;
+  cursor: pointer;
+}
+
+.newModal .form-control{
+  border: 1px solid #212529;
+  // background-color: #F8F9FA;
+  padding: 12px;
+}
+// .form-control{
+//   border: 0;
+//   background-color: #F8F9FA;
+//   padding: 16px;
+// }
+
+.viewModal .card{
+  border: 0;
+}
